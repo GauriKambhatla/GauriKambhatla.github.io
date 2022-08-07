@@ -1,97 +1,81 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Gauri Kambhatla
+#     - name: Email
+#       value: gkambhat@utexas.edu
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: University of Texas at Austin
+      year: 2021 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Computer Science
+        - Coursework - Natural Language Processing (CS 388), Neural Nets and Linguistic Structure (LIN 393)
+    - title: Masters
+      institution: University of Michigan
+      year: 2020 - 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Computer Science Engineering
+    - title: Bachelors
+      institution: University of Michigan
+      year: 2016 - 2020
+      description:
+        - Computer Science & Cognitive Science
 
-- title: Experience
+- title: Teaching
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Graduate Student Instructor, Information Retrieval (EECS 486)
+      institution: University of Michigan
+      year: 2021
+    - title: Instructor Assistant, Computer Organization (EECS 370)
+      institution: University of Michigan
+      year: 2019
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Community & Leadership
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Graduate Women in Computing (GWC) Leadership Board
+      institution: University of Texas at Austin
+      year: 2022 - Present
+      description:
+        - Organizing & planning professional development workshops, mentoring, and community-building events for graduate women.
 
+    - title: Michigan Institute for Data Science (MIDAS) Student Leadership Board
+      institution: University of Michigan
+      year: 2020 - 2021
+      description: 
+        - Lead a Women + Data Science community conversations event, which brought together women in various stages of their careers in academia/industry to share their experiences.
+        - Advised MIDAS leaders on data science education and research programming on Michigan's campus.
+
+    - title: Society of Women Engineers (SWE) [member]
+      institution: University of Michigan
+      year: 2018 - 2020
+      description: 
+        - Volunteered at a public high school in Chicago; taught an artificial intelligence lesson plan to historically underrepresented students.
+
+    - title: STEM Society [member]
+      institution: University of Michigan
+      year: 2018 - 2020
+      description: 
+        - Interactively taught underprivileged middle and high school students cognitive science and other science-related concepts to promote interest in STEM subjects.
+
+    
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Chair's Strategic Excellence Fellowship [University of Texas]
+    - year: 2018
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Clara Carter Higgins Summer Environmental Studies Scholarship
+    - year: 2016
       items:
-        - Description 1.
-        - Description 2.
+        - William J. Branstrom Freshman Prize (within top 5% of class) [University of Michigan]
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
