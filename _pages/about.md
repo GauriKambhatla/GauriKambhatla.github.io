@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD student in [Computer Science](https://www.cs.utexas.edu/) at the University of Texas at Austin. I work with Professor [Matt Lease](https://www.ischool.utexas.edu/~ml/) in the [AI and Human-Centered Computing Lab](https://ai.ischool.utexas.edu/). My primary research interests include natural language processing, NLP for social good, and computational social science.
+I am a PhD student in [Computer Science](https://www.cs.utexas.edu/) at the University of Texas at Austin. I work with Professor [Matt Lease](https://www.ischool.utexas.edu/~ml/) in the [AI and Human-Centered Computing Lab](https://ai.ischool.utexas.edu/) and as part of the [UT Austin NLP community](https://www.nlp.utexas.edu/). My primary research interests include natural language processing, NLP for social good, and computational social science.
 
 I received my Bachelors degree in Computer Science and [Cognitive Science](https://lsa.umich.edu/weinberginstitute) and Masters degree in [Computer Science Engineering](https://cse.engin.umich.edu/) from the University of Michigan (go blue!). During this time, I worked with Professor [Rada Mihalcea](https://web.eecs.umich.edu/~mihalcea/index.html) as part of the [LIT lab](https://lit.eecs.umich.edu/).
 
