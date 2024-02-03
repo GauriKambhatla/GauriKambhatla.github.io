@@ -6,83 +6,83 @@
 #     - name: Email
 #       value: gkambhat@utexas.edu
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Texas at Austin
-      year: 2021 - Present
-      description:
-        - Computer Science
-        - Coursework - Natural Language Processing, Neural Nets and Linguistic Structure, Social Applications and Impact of NLP
-    - title: Masters
-      institution: University of Michigan
-      year: 2020 - 2021
-      description:
-        - Computer Science Engineering
-    - title: Bachelors
-      institution: University of Michigan
-      year: 2016 - 2020
-      description:
-        - Computer Science & Cognitive Science
+# - title: Education
+#   type: time_table
+#   contents:
+#     - title: PhD
+#       institution: University of Texas at Austin
+#       year: 2021 - Present
+#       description:
+#         - Computer Science
+#         - Coursework - Natural Language Processing, Neural Nets and Linguistic Structure, Social Applications and Impact of NLP
+#     - title: Masters
+#       institution: University of Michigan
+#       year: 2020 - 2021
+#       description:
+#         - Computer Science Engineering
+#     - title: Bachelors
+#       institution: University of Michigan
+#       year: 2016 - 2020
+#       description:
+#         - Computer Science & Cognitive Science
 
-- title: Teaching
-  type: time_table
-  contents:
-    - title: Graduate Student Instructor, Information Retrieval (EECS 486)
-      institution: University of Michigan
-      year: 2021
-    - title: Instructor Assistant, Computer Organization (EECS 370)
-      institution: University of Michigan
-      year: 2019
+# - title: Teaching
+#   type: time_table
+#   contents:
+#     - title: Graduate Student Instructor, Information Retrieval (EECS 486)
+#       institution: University of Michigan
+#       year: 2021
+#     - title: Instructor Assistant, Computer Organization (EECS 370)
+#       institution: University of Michigan
+#       year: 2019
 
-- title: Community & Leadership
-  type: time_table
-  contents:
-    - title: Graduate Representative Association of Computer Sciences (GRACS)
-      institution: University of Texas at Austin
-      year: 2022 - Present
-      description:
-        - Provide information & hold events to help graduate students navigate grad school
-        - Organize & plan social events for graduate students
+# - title: Community & Leadership
+#   type: time_table
+#   contents:
+#     - title: Graduate Representative Association of Computer Sciences (GRACS)
+#       institution: University of Texas at Austin
+#       year: 2022 - Present
+#       description:
+#         - Provide information & hold events to help graduate students navigate grad school
+#         - Organize & plan social events for graduate students
 
-    - title: Graduate Women and Gender Minorities in Computing (GWGMC)
-      institution: University of Texas at Austin
-      year: 2022 - Present
-      description:
-        - Organize & plan community-building events for graduate women and gender minorties.
+#     - title: Graduate Women and Gender Minorities in Computing (GWGMC)
+#       institution: University of Texas at Austin
+#       year: 2022 - Present
+#       description:
+#         - Organize & plan community-building events for graduate women and gender minorties.
 
-    - title: Michigan Institute for Data Science (MIDAS) Student Leadership Board
-      institution: University of Michigan
-      year: 2020 - 2021
-      description: 
-        - Lead a Women + Data Science community conversations event, which brought together women in various stages of their careers in academia/industry to share their experiences.
-        - Advised MIDAS leaders on data science education and research programming on Michigan's campus.
+#     - title: Michigan Institute for Data Science (MIDAS) Student Leadership Board
+#       institution: University of Michigan
+#       year: 2020 - 2021
+#       description: 
+#         - Lead a Women + Data Science community conversations event, which brought together women in various stages of their careers in academia/industry to share their experiences.
+#         - Advised MIDAS leaders on data science education and research programming on Michigan's campus.
 
-    - title: Society of Women Engineers (SWE)
-      institution: University of Michigan
-      year: 2018 - 2020
-      description: 
-        - Volunteered at a public high school in Chicago; taught an artificial intelligence lesson plan to historically underrepresented students.
+#     - title: Society of Women Engineers (SWE)
+#       institution: University of Michigan
+#       year: 2018 - 2020
+#       description: 
+#         - Volunteered at a public high school in Chicago; taught an artificial intelligence lesson plan to historically underrepresented students.
 
-    - title: STEM Society
-      institution: University of Michigan
-      year: 2018 - 2020
-      description: 
-        - Interactively taught underprivileged middle and high school students cognitive science and other science-related concepts to promote interest in STEM subjects.
+#     - title: STEM Society
+#       institution: University of Michigan
+#       year: 2018 - 2020
+#       description: 
+#         - Interactively taught underprivileged middle and high school students cognitive science and other science-related concepts to promote interest in STEM subjects.
 
     
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2021
-      items: 
-        - Chair's Strategic Excellence Fellowship [University of Texas]
-    - year: 2018
-      items: 
-        - Clara Carter Higgins Summer Environmental Studies Scholarship
-    - year: 2016
-      items:
-        - William J. Branstrom Freshman Prize (within top 5% of class) [University of Michigan]
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 2021
+#       items: 
+#         - Chair's Strategic Excellence Fellowship [University of Texas]
+#     - year: 2018
+#       items: 
+#         - Clara Carter Higgins Summer Environmental Studies Scholarship
+#     - year: 2016
+#       items:
+#         - William J. Branstrom Freshman Prize (within top 5% of class) [University of Michigan]
 
 
