@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Participated in the CRA-WP Grad Cohort for Women in New Orleans
-date: April 21 - 23, 2022
+date: April 21, 2022
 inline: false
 ---
 

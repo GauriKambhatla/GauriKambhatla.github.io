@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Presented at FAccT in Seoul, South Korea
+title: Presented at FAccT in Seoul, South Korea 🇰🇷
 date: June 21, 2022
 inline: false
 ---
