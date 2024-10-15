@@ -1,115 +1,77 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{Kambhatla2024:Receptiveness,
+  title={Promoting Constructive Deliberation: Reframing for Receptiveness},
+  author={Gauri Kambhatla and Matthew Lease and Ashwin Rajadesingan},
+  year={2024},
+  journal={Findings of the Conference on Empirical Methods in Natural Language Processing},
+  selected={false},
+  abbr={EMNLP Findings},
+  abstract={To promote constructive discussion of controversial topics online, we propose automatic reframing of disagreeing responses to signal receptiveness while preserving meaning. Drawing on research from psychology, communications, and linguistics, we identify six strategies for reframing. We automatically reframe replies according to each strategy, using a dataset of Reddit comments and replies. Through human-centered experiments, we find that the replies generated with our framework are perceived to be significantly more receptive than the original replies, as well as a generic receptiveness baseline. We analyze and discuss the implications of our results and highlight applications to content moderation. Overall, we illustrate how transforming receptiveness, a particular social science construct, into a computational framework, can make LLM generations more aligned with human perceptions.},
+  pdf = {https://arxiv.org/abs/2405.15067},
+  data = {https://github.com/GauriKambhatla/constructive_deliberation}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{Kambhatla2023:Overlap,
+  title={Quantifying Train-Evaluation Overlap with Nearest Neighbors},
+  author={Gauri Kambhatla and Thuy Nguyen and Eunsol Choi},
+  year={2023},
+  journal={Findings of the Association for Computational Linguistics},
+  selected={false},
+  abbr={ACL Findings},
+  abstract={Characterizing benchmark datasets is crucial to interpreting model performance. In this work, we study train-evaluation overlap as a measure of an individual dataset’s adequacy to evaluate model generalization over a wide range of datasets. We quantify the overlap with a simple novel metric based on a nearest neighbors approach between the training and evaluation sets. We identify nearest training examples for each evaluation example by mapping instances with generic and task-specific embedding methods. Our study on eleven classification and extractive QA tasks reveals a wide range of train-evaluation overlap, and we show that the data collection method of the dataset and the difficulty of the task may play a role in the amount of overlap. Lastly, we use our nearest neighbor analysis to identify challenging or potentially mislabeled examples. Our analysis quantifies train-evaluation overlap, providing insights for constructing datasets to study generalization.},
+  pdf = {https://aclanthology.org/2023.findings-acl.183/},
+  code = {https://github.com/GauriKambhatla/train_eval_overlap}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{Kambhatla2022:Stereotypes,
+  title={Surfacing Racial Stereotypes Through Identity Portrayal},
+  author={Gauri Kambhatla and Ian Stewart and Rada Mihalcea},
+  year={2022},
+  journal={ACM Conference on Fairness, Accountability, and Transparency},
+  selected={false},
+  abbr={FAccT},
+  abstract={People express racial stereotypes through conversations with others, increasingly in a digital format; as a result, the ability to computationally identify racial stereotypes could be beneficial to help mitigate some of the harmful effects of stereotyping. In this work, we seek to better understand how we can computationally surface racial stereotypes in text by identifying linguistic features associated with differences in racial identity portrayal, focused on two races (Black and White). We collect novel data of individuals' self-presentation via crowdsourcing, where each crowdworker answers a set of prompts from their own perspective (real identity), and from the perspective of another racial identity (portrayed identity), keeping the gender constant. We use these responses as a dataset to identify stereotypes. Through a series of experiments based on classifications between real and portrayed identities, we show that generalizations and stereotypes appear to be more prevalent amongst white participants than black participants. Through analyses of predictive words and word usage patterns, we find that some of the most predictive features of an author portraying a different racial identity are known stereotypes, and reveal how people of different identities see themselves and others.},
+  pdf = {https://dl.acm.org/doi/10.1145/3531146.3533217},
+  data = {https://lit.eecs.umich.edu/downloads.html}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@article{Lahnala2021:Chord,
+  title={Chord Embeddings: Analyzing What They Capture and Their Role for Next Chord Prediction and Artist Attribute Prediction},
+  author={Allison Lahnala and Gauri Kambhatla and Jiajun Peng and Matthew Whitehead and Gillian Minnehan and Eric Guldan and Jonathan K. Kummerfeld and Anıl Çamcı and Rada Mihalcea},
+  year={2021},
+  journal={Proceedings of Computational Intelligence in Music, Sound, Art and Design - 10th International Conference, EvoMUSART},
+  selected={false},
+  abbr={EvoMUSART},
+  abstract={Natural language processing methods have been applied in a variety of music studies, drawing the connection between music and language. In this paper, we expand those approaches by investigating chord embeddings, which we apply in two case studies to address two key questions: (1) what musical information do chord embeddings capture?; and (2) how might musical applications benefit from them? In our analysis, we show that they capture similarities between chords that adhere to important relationships described in music theory. In the first case study, we demonstrate that using chord embeddings in a next chord prediction task yields predictions that more closely match those by experienced musicians. In the second case study, we show the potential benefits of using the representations in tasks related to musical stylometrics.},
+  pdf = {https://arxiv.org/pdf/2102.02917.pdf},
+  data = {https://lit.eecs.umich.edu/downloads.html}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{Coblenz2021:PLIERS,
+  title={PLIERS: A Process that Integrates User-Centered Methods into Programming Language Design},
+  author={Michael Coblenz and Gauri Kambhatla and Paulette Koronkevich and Jenna L. Wise and Celeste Barnaby and Joshua Sunshine and Jonathan Aldrich and Brad A. Myers},
+  year={2021},
+  journal={ACM Transactions on Computer-Human Interaction},
+  selected={false},
+  abbr = {TOCHI},
+  doi = {http://dx.doi.org/10.1145/3452379},
+  volume={28},
+  issue={4},
+  pages={1-53},
+  acm={https://dl.acm.org/doi/10.1145/3452379},
+  pdf={https://dl.acm.org/doi/pdf/10.1145/3452379},
+  abstract={Programming language design requires making many usability-related design decisions. However, existing HCI methods can be impractical to apply to programming languages: languages have high iteration costs, programmers require significant learning time, and user performance has high variance. To address these problems, we adapted both formative and summative HCI methods to make them more suitable for programming language design. We integrated these methods into a new process, PLIERS, for designing programming languages in a user-centered way. We assessed PLIERS by using it to design two new programming languages. Glacier extends Java to enable programmers to express immutability properties effectively and easily. Obsidian is a language for blockchains that includes verification of critical safety properties. Empirical studies showed that the PLIERS process resulted in languages that could be used effectively by many programmers and revealed additional opportunities for language improvement.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{Kambhatla2019:Pilot,
+	author = {Gauri Kambhatla and Michael Coblenz and Reed Oei and Joshua Sunshine and Brad Myers and Jonathan Aldrich},
+	title = {A Pilot Study of the Safety and Usability of the Obsidian Blockchain Programming Language},
+	journal = {PLATEAU Workshop},
+	year = {2019},
+  pdf = {https://drops.dagstuhl.de/opus/volltexte/2020/11956/pdf/OASIcs-PLATEAU-2019-2.pdf},
+  selected={false},
+  abbr = {PLATEAU},
+  abstract={Although blockchains have been proposed for building systems that execute critical transactions, security vulnerabilities have plagued programs that are deployed on blockchain systems. The programming language Obsidian was developed with the purpose of statically preventing some of the more common of these security risks, specifically the loss of resources and improper manipulation of objects. The question then is whether Obsidian's novel features impact the usability of the language. In this paper, we begin to evaluate Obsidian with respect to usability, and develop materials for a quantitative user study through a sequence of pilot studies. Specifically, our goal was to assess a) potential usability problems of Obsidian, b) the effectiveness of a tutorial for participants to learn the language, and c) the design of programming tasks to evaluate performance using the language. Our preliminary results tentatively suggest that the complexity of Obsidian's features do not hinder usability, although these results will be validated in the quantitative study. We also observed the following factors as being important in a given programmer's ability to learn Obsidian: a) integrating very frequent opportunities for practice of the material - e.g., after less than a page of material at a time, and b) previous programming experience and self-efficacy.}
 }
