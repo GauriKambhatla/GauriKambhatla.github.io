@@ -5,7 +5,7 @@ date: June 21, 2022
 inline: false
 ---
 
-I presented our paper, [Surfacing Racial Stereotypes through Identity Portrayal](https://facctconference.org/static/pdfs_2022/facct22-129.pdf), at the ACM Conference on Fairness, Accountability, and Transparency ([FAccT](https://facctconference.org/2022/index.html)). Here are some of my (rough) notes and takeaways from the conference; videos of the keynotes and paper presentations are available on YouTube if interested!
+I presented our paper, [Surfacing Racial Stereotypes through Identity Portrayal](https://dl.acm.org/doi/10.1145/3531146.3533217), at the ACM Conference on Fairness, Accountability, and Transparency ([FAccT](https://facctconference.org/2022/index.html)). Here are some of my (rough) notes and takeaways from the conference; videos of the keynotes and paper presentations are available on YouTube if interested!
 
 ***
 
